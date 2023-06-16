@@ -5,7 +5,7 @@ import "./components/LeftPanel/LeftPanel"
 import codewars from "../src/img/codewars.svg"
 import github from "../src/img/gitHub.svg"
 import instagram from "../src/img/instagram.svg"
-import linkedin from "../src/img/linkedin.svg"
+// import linkedin from "../src/img/linkedin.svg"
 import ExampleCss from './components/LeftPanel/LeftPanel'
 import Content_component from "./components/Content_component/Content_com"
 
@@ -115,7 +115,7 @@ function App() {
                 <div className="social">
                     <a href="https://www.instagram.com/doneflory/?ysclid=liheucdd5485132824"><img src={instagram} alt="Link" /></a>
                     <a href="https://github.com/dnfff"><img src={github} alt="Link" /></a>
-                    <a href="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D0%BA%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2-690975279/"><img src={linkedin} alt="Link" /></a>
+                    {/* <a href="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D0%BA%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2-690975279/"><img src={linkedin} alt="Link" /></a> */}
                     <a className="social_codew" href="https://www.codewars.com/users/dnff"><img src={codewars} alt="Link" /></a>
           </div>
           <div className="copyright">
